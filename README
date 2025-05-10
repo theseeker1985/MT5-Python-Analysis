@@ -2,6 +2,7 @@ Python script that analyses MT5 Strategy Tester HTML results files with advanced
 
 Features
 1.	File Selection Dialog: Lets you choose the MT5 HTML report file through a graphical interface.
+
 2.	Data Extraction:
 o	Parses the HTML to extract all key settings (Expert, Symbol, Period, etc.)
 o	Extracts all performance metrics (Profit Factor, Sharpe Ratio, etc.)
