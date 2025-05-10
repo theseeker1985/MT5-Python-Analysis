@@ -1,0 +1,95 @@
+Python script that analyses MT5 Strategy Tester HTML results files with advanced statistics and visualizations:
+
+Features
+1.	File Selection Dialog: Lets you choose the MT5 HTML report file through a graphical interface.
+2.	Data Extraction:
+o	Parses the HTML to extract all key settings (Expert, Symbol, Period, etc.)
+o	Extracts all performance metrics (Profit Factor, Sharpe Ratio, etc.)
+o	Captures all trade details from the Orders table
+
+3.	Advanced Analysis:
+o	Calculates trade durations
+o	Determines win/loss status for each trade
+o	Computes risk/reward ratios
+o	Identifies streaks of consecutive wins/losses
+o	Calculates drawdowns
+
+4.	Comprehensive Visualization:
+o	Equity curve over time
+o	Profit distribution histogram
+o	Win/loss by trade direction
+o	Performance by hour of day
+o	Trade duration vs profit
+o	Drawdown analysis
+o	Consecutive wins/losses
+o	Risk/reward ratio distribution
+5.	Detailed Reporting:
+o	Summary of key strategy parameters
+o	Performance metrics from the report
+o	Advanced calculated statistics
+o	Monthly performance breakdown
+
+6.	Trading Session Analysis:
+o	Classifies trades into Asian, European, and US sessions
+o	Calculates performance metrics for each session
+o	Visualises session profitability and activity
+
+7.	Advanced Time Analysis:
+o	Hourly performance metrics (most/least profitable hours)
+o	Day of week analysis
+o	Monthly performance breakdown
+o	Execution time tracking (order placement to execution)
+
+8.	Trade Duration Deep Dive:
+o	Detailed statistics on trade durations
+o	Distribution of trade durations
+o	Correlation between duration and profitability
+o	Duration analysis for winning vs losing trades
+
+9.	Enhanced Risk/Reward Analysis:
+o	Distribution of risk/reward ratios
+o	RR metrics for winning vs losing trades
+o	Visualizations of RR distribution
+
+10.	Comprehensive Win/Loss Analysis:
+o	Win rates by direction (long/short)
+o	Consecutive wins/losses tracking
+o	Largest winning and losing trades
+o	Profit distribution by result type
+
+11.	Advanced Visualization:
+o	12 detailed charts showing different aspects of performance
+o	Professional layout using GridSpec
+o	Interactive visualizations for deeper exploration
+
+12.	Detailed Statistics Output:
+o	Over 50 different performance metrics
+o	Session-by-session breakdowns
+o	Time-based performance analysis
+o	Statistical measures (skewness, kurtosis, etc.)
+
+Data cleansing functionality
+1.	Encoding Detection: Automatically detects the file encoding using chardet to handle UTF-16 or other encodings.
+2.	More Robust Parsing:
+o	Better handling of the orders table structure
+o	More flexible column position detection
+o	Better error handling for missing data
+
+3.	Improved Data Cleaning:
+o	Better numeric value extraction (handles currency symbols, commas)
+o	More flexible date parsing
+o	Better handling of missing columns
+
+4.	Error Handling:
+o	Graceful handling of missing data
+o	Better error messages
+o	Try/except blocks around critical operations
+
+5.	Conditional Plotting:
+o	Only generates plots for which data is available
+o	Skips sections that would fail due to missing data
+6.	More Informative Output:
+o	Better formatted summary statistics
+o	Clearer error messages
+o	Progress feedback
+
