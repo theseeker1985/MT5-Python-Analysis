@@ -1,4 +1,5 @@
-This Python script is designed to analyze MT5 (MetaTrader 5) trading strategy performance by processing an HTML backtest report and corresponding market data (CSV). 
+This Python script is designed to analyze MT5 (MetaTrader 5) trading strategy performance by processing a HTML backtest report
+and corresponding market data (CSV) (Smaller timeframe historical bar data = higher accuracy). 
 
 Here's a breakdown of its key functions and value-added features:
 
