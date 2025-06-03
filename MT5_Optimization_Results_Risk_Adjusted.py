@@ -1,4 +1,6 @@
 '''
+You'll need to export the xml first, drag and drop into excel, save as csv.
+
 Composite Scoring System:
 Profit (25% weight)
 Profit Factor (25%)
